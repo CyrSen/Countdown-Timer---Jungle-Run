@@ -12,7 +12,7 @@ c) Visual and Audio Feedback: The user interface provides visual feedback to the
 4. TECHNOLOGIES: The technology stack used to implement the countdown timer includes HTML5, CSS3, Bootstrap 5, JavaScript and Git. A figma mockup was not made because the focus was on JavaScript.
 
 5. HTML - BUILDING BLOCKS AND ELEMENTS
-The html page is composed of three major building blocks: 1) Input fields for days, hours, minutes. 2) Start and stop buttons. 3) Display showing the time counting down. Important elements that were used: a) the <form> tag to contain the input fields and buttons. b) <input> tags with the type="number" attribute to create the input fields. c) <button> tags to create the start and stop buttons. d) <span> tags to display the countdown items for days, hours, minutes, and seconds.
+The html page is composed of three major building blocks: 1) Input fields for days, hours, minutes. 2) Start and stop buttons. 3) Display showing the time counting down. Important elements that were used: a) the form-tag to contain the input fields and buttons. b) input-tags with the type="number" attribute to create the input fields. c) button-tags to create the start and stop buttons. d) span-tags to display the countdown items for days, hours, minutes, and seconds.
 
 6. CSS - BUILDING BLOCKS AND ELEMENTS
 The background-image property to set the forest background. Bootstrap classes style the input fields and buttons. The font of the display corresponds to the lightest color that can be found in the background-image.
