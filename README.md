@@ -19,13 +19,13 @@ The background-image property to set the forest background. Bootstrap classes st
 
 7. JAVASCRIPT - KEY STEPS AND METHODS
 The basic flow runs in four steps: 
-1) The first step is about getting the values entered in the input fields for days, hours, minutes, and seconds and converting them to seconds. Tools used are querySelector() to get the input field values, and basic math operations to convert the input field values to seconds.
-2) The second step is to display the countdown items for days, hours, minutes, and seconds. This uses setInterval() to update the countdown timer every second, basic math operations to calculate the number of days, hours, minutes, and seconds left, and textContent to update the countdown items in the HTML.
-3) The third step is handling the start and stop buttons by using addEventListener() to add a click event to the start and stop buttons, and by using clearInterval() to stop the countdown when the stop button is clicked.
-4) In the last step, a message is displayed and a sound played once the timer reaches zero. An If-statement is used to check if the timer has reached zero. Once it reached zero, a message is displayed and a sound played using the textContent and audio asset.
+7.1) The first step is about getting the values entered in the input fields for days, hours, minutes, and seconds and converting them to seconds. Tools used are querySelector() to get the input field values, and basic math operations to convert the input field values to seconds.
+7.2) The second step is to display the countdown items for days, hours, minutes, and seconds. This uses setInterval() to update the countdown timer every second, basic math operations to calculate the number of days, hours, minutes, and seconds left, and textContent to update the countdown items in the HTML.
+7.3) The third step is handling the start and stop buttons by using addEventListener() to add a click event to the start and stop buttons, and by using clearInterval() to stop the countdown when the stop button is clicked.
+7.4) In the last step, a message is displayed and a sound played once the timer reaches zero. An If-statement is used to check if the timer has reached zero. Once it reached zero, a message is displayed and a sound played using the textContent and audio asset.
 
 
 8. RESOURCES: 
-Github link: https://github.com/
+Github link: https://github.com/CyrSen/Countdown-Timer---Jungle-Run
 Retrospective: https://docs.google.com/presentation/d/1HtQiewLaXxKYlKWeSjZD8MkpbWTyYyGblql2P0e_dNk/edit#slide=id.gc6f80d1ff_0_27
 
