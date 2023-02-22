@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Countdown Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+ 
+    <!-- CONTAINER TO CENTER AND CONTAIN THE CONTENT OF THE PAGE - START -->
+    <div class="container"> 
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <!-- DISPLAY OF COUNTDOWN TIME - START-->
+          <div class="countdown-timer text-center"> <!-- Creation of IDs of the time elements -->
+            <span id="days"></span>
+            <span id="hours"></span>
+            <span id="minutes"></span>
+            <span id="seconds"></span>
+          </div>
+          <!-- DISPLAY OF COUNTDOWN TIME - END-->
+
+          <!-- INPUT FIELDS AND BUTTONS - START-->
+          <form class="countdown-form">
+            <!-- Input fields with divs to contain label and input for the time elements. -->
+            <div class="form-group">
+              <label for="days">Days</label>
+              <input
+                type="number"
+                class="form-control"
+                id="days"
+                placeholder="Enter days"
+              />
+            </div>
+            <div class="form-group">
+              <label for="hours">Hours</label>
+              <input
+                type="number"
+                class="form-control"
+                id="hours"
+                placeholder="Enter hours"
+              />
+            </div>
+            <div class="form-group">
+              <label for="minutes">Minutes</label>
+              <input
+                type="number"
+                class="form-control"
+                id="minutes"
+                placeholder="Enter minutes"
+              />
+            </div>
+            <div class="form-group">
+              <label for="seconds">Seconds</label>
+              <input
+                type="number"
+                class="form-control"
+                id="seconds"
+                placeholder="Enter seconds"
+              />
+            </div>
+            <!-- Buttons to start and stop the countdown timer -->
+            <button type="button" class="btn btn-dark start-timer">
+              Start
+            </button>
+            <button type="button" class="btn btn-dark stop-timer">
+              Stop
+            </button>
+          </form>
+          <!-- INPUT FIELDS AND BUTTONS - END-->
+
+          <!-- COUNTDOWN TIMER DISPLAY - START -->
+          <div class="countdown-display text-center">
+            <!-- Span elements IDs to dispaly the number of each time element remaining-->
+            <span id="days-display"></span>
+            <span id="hours-display"></span>
+            <span id="minutes-display"></span>
+            <span id="seconds-display"></span>
+          </div>
+          <!-- COUNTDOWN TIMER DISPLAY - END -->
+        </div>
+      </div>
+    </div>
+    <!-- CONTAINER TO CENTER AND CONTAIN THE CONTENT OF THE PAGE - END -->
+
+    <!-- Linking the script file -->
+    <script src="script.js"></script>
+  
+  </body>
+
+</html>

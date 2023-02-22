@@ -1,0 +1,57 @@
+/* font size, family and color of countdown timer and the alert message */
+.countdown-timer {
+    font-size: 6rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #D4E1E2;
+  }
+ 
+  /* background image of the page */
+  body {
+    background-image: url("assets/taunus.jpg");
+    background-size: cover;
+    }
+  
+    /* set the font and color of the countdown timer */
+.countdown-timer {
+  font-size: 5rem;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #D4E1E2;
+  text-shadow: 2px 2px 0 #000;
+}
+
+/* style the input fields */
+input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 4rem;
+  border: none;
+  border-radius: 4px;
+  margin-right: 1rem;
+  text-align: center;
+  background-color: #D4E1E2;
+}
+
+/* style the start and stop buttons */
+button {
+  font-size: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #D4E1E2;
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* style the countdown timer labels */
+.countdown-label {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #D4E1E2;
+}
+
+
+/* style the input field labels */
+label {
+  font-size: 2rem;
+  color: #fff;
+}
